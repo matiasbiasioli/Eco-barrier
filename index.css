@@ -1,0 +1,341 @@
+/* VISTA MOBILE */
+/* Nav mobile*/
+.nav-content {
+    display: flex;
+    justify-content: space-evenly !important;
+}
+
+.nav-content img {
+    width: 12rem;
+}
+
+.nav-menu {
+    text-align: center;
+}
+
+.nav-menu a {
+    color: #1b7e46 !important;
+    text-decoration: none;
+
+}
+
+.btn-hamburguesa {
+    font-size: .5rem;
+}
+
+/* CONTENIDO SLIDER*/
+.text-slider h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.text-slider p {
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+.text-slider .btn-style {
+    background-color: rgb(20, 127, 66);
+    color: rgb(248, 239, 239);
+    font-size: .8rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 5px 5px;
+}
+
+.text-slider .btn-style:hover {
+    background-color: #126c39;
+    color: rgb(249, 244, 244);
+    transition: .5s;
+
+}
+
+/* Seccion revista mobile */
+
+.content-revista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.content-revista h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.title-revista {
+    color: #126c39;
+    font-weight: bold;
+}
+
+.content-revista img {
+    padding: 2rem 0;
+    height: 100%;
+}
+
+/* SECCION ATRIBUTOS */
+.contenedor__atributos {
+    background-color: #181a1a;
+    color: white;
+    padding: 2rem
+}
+
+.contenedor__atributos h2 {
+    font-size: 2.5rem;
+}
+
+.contenedor__atributos h3 {
+    font-size: 1.8rem;
+}
+
+.contenedor__atributos p {
+    font-size: 1rem;
+}
+
+.contenedor__atributos button {
+    font-size: 1.5rem;
+    background-color: #24a85d;
+    border-radius: 40px;
+    border: none;
+    padding: .7rem;
+    color: white;
+}
+.contenedor__atributos button:hover {
+    /* transform: scale(1.1); */
+    background-color: #187e44;
+    transition: .3s;
+}
+
+.iconos__atributos {
+    font-size: 1.8rem;
+    padding-bottom: .7rem;
+    margin-top: .7rem;
+    color: #24a85d
+}
+
+/* Seccion Spot mobile */
+.spot-eco-video iframe {
+    height: 40vw;
+}
+.spot-eco-barrier {
+    text-align: center;
+}
+
+.spot-eco-barrier h2 {
+    background-color: #126c39;
+    color: white;
+    font-size: 1.8rem;
+    padding: 2.5rem;
+    text-transform: uppercase;
+
+}
+
+.spot-eco-radio {
+    padding: 2rem 0;
+    text-align: center;
+    color: #126c39;
+    font-weight: bold;
+}
+
+.spot-eco-radio iframe {
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+/* FORMULARIO MOBILE */
+form {
+    color: #126c39;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+.boton-form {
+    background-color: #126c39;
+    color: white;
+    width: 6rem;
+}
+.boton-form:hover {
+    background-color: #126c39;
+    color: white;
+}
+
+/* Seccion mapa mobile */
+.container-mapa {
+    color: #126c39;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-mapa h2 {
+    padding: 40px 0px 0px 0px;
+}
+
+/* Redes */
+.icono__wp img {
+    position: fixed;
+    width: 4rem;
+    right: 10px;
+    bottom: 10px;
+}
+
+.icono__wp img {
+    width: 4rem;
+}
+
+.icono__wp img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Footer mobile */
+.container-footer {
+    text-align: center;
+}
+
+.container-footer img {
+    width: 15rem;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>> VISTA DESKTOP */
+@media (min-width:992px) {
+    .nav-menu {
+        display: flex;
+        justify-content: right;
+        padding-right: 20px;
+    }
+
+    .nav-content img {
+        width: 20rem;
+    }
+
+    .nav-menu a {
+        font-size: 1.2rem;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .nav-menu a:after {
+        content: "";
+        width: 0;
+        height: 4px;
+        background-color: #1b7e46;
+        position: absolute;
+        bottom: 0;
+        right: 100%;
+        transition: all .5s;
+    }
+
+    .nav-menu a:hover:after {
+        width: 100%;
+        right: 0;
+
+    }
+
+    .navegador {
+        height: 120px;
+    }
+
+    .navegador .container-fluid {
+        flex-direction: row;
+    }
+
+    .carousel-change {
+        max-height: 100vh;
+    }
+
+    .text-slider {
+        position: absolute;
+        bottom: 50%;
+    }
+
+    .text-slider h5 {
+        font-size: 4rem;
+    }
+
+    .text-slider p {
+        font-size: 2rem;
+    }
+
+    .text-slider .btn {
+        font-size: 2rem;
+        padding: 10px 15px;
+    }
+
+    .title-revista h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 1.5rem;
+    }
+
+    .content-revista {
+        display: flex;
+        flex-direction: row;
+    }
+    .content-revista h2 {
+        justify-content: start;
+    }
+    .content-revista img {
+        width: 22rem;
+    }
+    .spot-eco-barrier iframe {
+        margin-top: 2rem;
+        margin-bottom: 1.6rem;
+        width: 60%;
+        height: 55vh;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px;
+    }
+
+    .spot-eco-barrier h2 {
+        font-size: 3.5rem;
+    }
+
+    .spot-eco-radio iframe {
+        width: 60%;
+    }
+
+    .spot-eco-radio h2 {
+        padding: 2rem 0 2rem 0;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-estilo {
+        width: 60%;
+    }
+
+    .mapa-title h2 {
+        font-size: 2.5rem;
+    }
+
+    .contenedor__atributos {
+        padding: 4rem;
+    }
+
+    .contenedor__atributos__2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .contenedor__atributos h2 {
+        font-size: 4.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .contenedor__atributos h3 {
+        font-size: 1.5rem;
+    }
+
+    .iconos__atributos {
+        font-size: 2rem;
+    }
+}
