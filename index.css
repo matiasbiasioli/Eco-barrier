@@ -23,37 +23,11 @@
     font-size: .5rem;
 }
 
-/* CONTENIDO SLIDER*/
-.text-slider h5 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: white;
+/* MAIN VIDEO SPOT */
+.spot-eco-video iframe {
+    height: 30vh;
 }
-
-.text-slider p {
-    font-size: 1.2rem;
-    color: white;
-
-}
-
-.text-slider .btn-style {
-    background-color: rgb(20, 127, 66);
-    color: rgb(248, 239, 239);
-    font-size: .8rem;
-    border-radius: 20px;
-    text-transform: uppercase;
-    padding: 5px 5px;
-}
-
-.text-slider .btn-style:hover {
-    background-color: #126c39;
-    color: rgb(249, 244, 244);
-    transition: .5s;
-
-}
-
 /* Seccion revista mobile */
-
 .content-revista {
     display: flex;
     justify-content: center;
@@ -117,9 +91,6 @@
 }
 
 /* Seccion Spot mobile */
-.spot-eco-video iframe {
-    height: 40vw;
-}
 .spot-eco-barrier {
     text-align: center;
 }
