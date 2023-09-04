@@ -212,11 +212,7 @@ form {
   .navegador .container-fluid {
     flex-direction: row;
   }
-
   /* MAIN VIDEO SPOT */
-  .spot-eco-video iframe {
-    height: 90vh;
-  }
   .title-revista h2 {
     text-align: center;
     font-size: 2.5rem;
